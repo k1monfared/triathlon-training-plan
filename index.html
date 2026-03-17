@@ -236,12 +236,12 @@
 
     <!-- Control Panel -->
     <div class="control-panel">
-        <button id="toggle-color-btn" onclick="toggleColorMode()">🎨 Toggle B&amp;W</button>
+        <button id="toggle-color-btn" onclick="toggleColorMode()">🎨 Toggle B&W</button>
 
         <div class="control-group">
             <label for="rest-day-select">Rest Day:</label>
             <select id="rest-day-select" onchange="changeRestDay()">
-                <option value="0" selected="">Monday</option>
+                <option value="0" selected>Monday</option>
                 <option value="1">Tuesday</option>
                 <option value="2">Wednesday</option>
                 <option value="3">Thursday</option>
@@ -253,7 +253,7 @@
 
         <div class="control-group">
             <label for="start-date-input">Start Date:</label>
-            <input type="date" id="start-date-input">
+            <input type="date" id="start-date-input" />
         </div>
 
         <button id="export-calendar-btn" onclick="exportToCalendar()">📅 Export to Calendar</button>
@@ -263,7 +263,7 @@
 
     <!-- Intensity Guide -->
     <div class="intensity-guide" style="background-color: #f8f9fa; padding: 20px; margin: 20px 0; border-left: 4px solid #2c3e50; border-radius: 4px;">
-        <h3 style="margin: 0 0 15px 0; color: #2c3e50; font-size: 1.1em;">Training Intensity &amp; Terminology Guide</h3>
+        <h3 style="margin: 0 0 15px 0; color: #2c3e50; font-size: 1.1em;">Training Intensity & Terminology Guide</h3>
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; font-size: 0.9em;">
             <div>
                 <h4 style="margin: 0 0 10px 0; color: #34495e; font-size: 1em;">Intensity Levels</h4>
@@ -290,16 +290,16 @@
         </div>
     </div>
 
-<div class="phase-header">BASE PHASE (Weeks 1-6) - Build Aerobic Capacity &amp; Endurance</div>
+<div class="phase-header">BASE PHASE (Weeks 1-6) - Build Aerobic Capacity & Endurance</div>
 <div class="week-wrapper">
 <div class="table-wrapper">
 <div class="week-label">WEEK 1</div>
 <table>
 <thead><tr>
-<th class="rest-header">Monday</th><th class="training-header">Tuesday</th><th class="training-header">Wednesday</th><th class="training-header">Thursday</th><th class="training-header">Friday</th><th class="training-header">Saturday</th><th class="training-header">Sunday</th>
+<th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th><th>Sunday</th>
 </tr></thead>
 <tbody><tr>
-<td class="rest-day">REST</td><td class="training-day"><div class="workout-card swim-card">
+<td class="rest-day">REST</td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM BASE</div>
             <span class="workout-duration">800m</span>
@@ -337,7 +337,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> FOUNDATION BIKE</div>
             <span class="workout-duration">30 min</span>
@@ -363,7 +363,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">10 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> FOUNDATION RUN</div>
             <span class="workout-duration">25 min</span>
@@ -389,7 +389,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">Run 10 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card swim-card">
+            </li></ul></div></td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM BASE</div>
             <span class="workout-duration">800m</span>
@@ -427,7 +427,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> FOUNDATION BIKE</div>
             <span class="workout-duration">30 min</span>
@@ -453,7 +453,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">10 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> FOUNDATION RUN</div>
             <span class="workout-duration">25 min</span>
@@ -490,10 +490,10 @@
 <div class="week-label">WEEK 2</div>
 <table>
 <thead><tr>
-<th class="rest-header">Monday</th><th class="training-header">Tuesday</th><th class="training-header">Wednesday</th><th class="training-header">Thursday</th><th class="training-header">Friday</th><th class="training-header">Saturday</th><th class="training-header">Sunday</th>
+<th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th><th>Sunday</th>
 </tr></thead>
 <tbody><tr>
-<td class="rest-day">REST</td><td class="training-day"><div class="workout-card swim-card">
+<td class="rest-day">REST</td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM BASE</div>
             <span class="workout-duration">900m</span>
@@ -531,7 +531,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> FOUNDATION BIKE</div>
             <span class="workout-duration">45 min</span>
@@ -557,7 +557,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">10 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> FOUNDATION RUN</div>
             <span class="workout-duration">30 min</span>
@@ -583,7 +583,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">Run 10 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card swim-card">
+            </li></ul></div></td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM BASE</div>
             <span class="workout-duration">900m</span>
@@ -621,7 +621,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> FOUNDATION BIKE</div>
             <span class="workout-duration">45 min</span>
@@ -659,7 +659,7 @@
                     <span class="detail-part"><span class="label">MS:</span></span>
                     <span class="detail-part">Run 10 min @ moderate immediately following today's bike workout</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> FOUNDATION RUN</div>
             <span class="workout-duration">30 min</span>
@@ -696,10 +696,10 @@
 <div class="week-label">WEEK 3</div>
 <table>
 <thead><tr>
-<th class="rest-header">Monday</th><th class="training-header">Tuesday</th><th class="training-header">Wednesday</th><th class="training-header">Thursday</th><th class="training-header">Friday</th><th class="training-header">Saturday</th><th class="training-header">Sunday</th>
+<th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th><th>Sunday</th>
 </tr></thead>
 <tbody><tr>
-<td class="rest-day">REST</td><td class="training-day"><div class="workout-card swim-card">
+<td class="rest-day">REST</td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM BASE</div>
             <span class="workout-duration">1000m</span>
@@ -737,7 +737,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> FOUNDATION BIKE</div>
             <span class="workout-duration">1:00</span>
@@ -763,7 +763,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">10 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> FOUNDATION RUN</div>
             <span class="workout-duration">35 min</span>
@@ -789,7 +789,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">Run 10 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card swim-card">
+            </li></ul></div></td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM FARTLEK</div>
             <span class="workout-duration">1000m</span>
@@ -827,7 +827,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> FOUNDATION BIKE</div>
             <span class="workout-duration">1:00</span>
@@ -853,7 +853,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">10 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> FOUNDATION RUN</div>
             <span class="workout-duration">35 min</span>
@@ -896,10 +896,10 @@
 <div class="week-label">WEEK 4</div>
 <table>
 <thead><tr>
-<th class="rest-header">Monday</th><th class="training-header">Tuesday</th><th class="training-header">Wednesday</th><th class="training-header">Thursday</th><th class="training-header">Friday</th><th class="training-header">Saturday</th><th class="training-header">Sunday</th>
+<th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th><th>Sunday</th>
 </tr></thead>
 <tbody><tr>
-<td class="rest-day">REST</td><td class="training-day"><div class="workout-card swim-card">
+<td class="rest-day">REST</td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM BASE</div>
             <span class="workout-duration">800m</span>
@@ -937,7 +937,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> FOUNDATION BIKE</div>
             <span class="workout-duration">45 min</span>
@@ -963,7 +963,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">10 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> FARTLEK RUN</div>
             <span class="workout-duration">30 min</span>
@@ -989,7 +989,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">Run 5 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card swim-card">
+            </li></ul></div></td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM FARTLEK</div>
             <span class="workout-duration">900m</span>
@@ -1021,7 +1021,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> FOUNDATION BIKE</div>
             <span class="workout-duration">30 min</span>
@@ -1059,7 +1059,7 @@
                     <span class="detail-part"><span class="label">MS:</span></span>
                     <span class="detail-part">Run 10 min @ moderate immediately following today's bike workout</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> FOUNDATION RUN</div>
             <span class="workout-duration">30 min</span>
@@ -1096,10 +1096,10 @@
 <div class="week-label">WEEK 5</div>
 <table>
 <thead><tr>
-<th class="rest-header">Monday</th><th class="training-header">Tuesday</th><th class="training-header">Wednesday</th><th class="training-header">Thursday</th><th class="training-header">Friday</th><th class="training-header">Saturday</th><th class="training-header">Sunday</th>
+<th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th><th>Sunday</th>
 </tr></thead>
 <tbody><tr>
-<td class="rest-day">REST</td><td class="training-day"><div class="workout-card swim-card">
+<td class="rest-day">REST</td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM BASE</div>
             <span class="workout-duration">1100m</span>
@@ -1137,7 +1137,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> BIKE SHORT HILL CLIMBS</div>
             <span class="workout-duration">50 min</span>
@@ -1163,7 +1163,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">10 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> FARTLEK RUN</div>
             <span class="workout-duration">30 min</span>
@@ -1189,7 +1189,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">Run 5 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card swim-card">
+            </li></ul></div></td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM FARTLEK</div>
             <span class="workout-duration">1100m</span>
@@ -1233,7 +1233,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> FOUNDATION BIKE</div>
             <span class="workout-duration">1:00</span>
@@ -1259,7 +1259,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">10 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> FOUNDATION BIKE</div>
             <span class="workout-duration">1:00</span>
@@ -1296,15 +1296,15 @@
 <div class="week-label">WEEK 6</div>
 <table>
 <thead><tr>
-<th class="rest-header">Monday</th><th class="training-header">Tuesday</th><th class="training-header">Wednesday</th><th class="training-header">Thursday</th><th class="training-header">Friday</th><th class="training-header">Saturday</th><th class="training-header">Sunday</th>
+<th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th><th>Sunday</th>
 </tr></thead>
 <tbody><tr>
-<td class="rest-day">REST</td><td class="training-day"><div class="workout-card swim-card">
+<td class="rest-day">REST</td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM THRESHOLD + SPRINT</div>
             <span class="workout-duration">1200m</span>
         </div>
-        <ul class="workout-details"></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+        <ul class="workout-details"></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> BIKE SHORT HILL CLIMBS</div>
             <span class="workout-duration">55 min</span>
@@ -1330,7 +1330,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">10 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> FARTLEK RUN</div>
             <span class="workout-duration">35 min</span>
@@ -1356,7 +1356,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">Run 5 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card swim-card">
+            </li></ul></div></td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM FARTLEK</div>
             <span class="workout-duration">1100m</span>
@@ -1394,7 +1394,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> FOUNDATION BIKE</div>
             <span class="workout-duration">1:00</span>
@@ -1432,7 +1432,7 @@
                     <span class="detail-part"><span class="label">MS:</span></span>
                     <span class="detail-part">Run 10 min @ moderate immediately following today's bike workout</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> FOUNDATION RUN</div>
             <span class="workout-duration">45 min</span>
@@ -1470,16 +1470,16 @@
 </div>
 </div>
 
-<div class="phase-header">BUILD PHASE (Weeks 7-11) - High-Intensity &amp; Endurance Development</div>
+<div class="phase-header">BUILD PHASE (Weeks 7-11) - High-Intensity & Endurance Development</div>
 <div class="week-wrapper">
 <div class="table-wrapper">
 <div class="week-label">WEEK 7</div>
 <table>
 <thead><tr>
-<th class="rest-header">Monday</th><th class="training-header">Tuesday</th><th class="training-header">Wednesday</th><th class="training-header">Thursday</th><th class="training-header">Friday</th><th class="training-header">Saturday</th><th class="training-header">Sunday</th>
+<th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th><th>Sunday</th>
 </tr></thead>
 <tbody><tr>
-<td class="rest-day">REST</td><td class="training-day"><div class="workout-card swim-card">
+<td class="rest-day">REST</td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM BASE + LACTATE</div>
             <span class="workout-duration">1275m</span>
@@ -1523,7 +1523,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> FOUNDATION BIKE</div>
             <span class="workout-duration">1:00</span>
@@ -1549,7 +1549,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">10 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> RUN LACTATE INTERVALS</div>
             <span class="workout-duration">32 min</span>
@@ -1575,7 +1575,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">Run 10 min @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card swim-card">
+            </li></ul></div></td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM THRESHOLD + SPRINT</div>
             <span class="workout-duration">1200m</span>
@@ -1613,7 +1613,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> FOUNDATION BIKE</div>
             <span class="workout-duration">1:15</span>
@@ -1639,7 +1639,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">10 min @ moderate aerobic pace</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> FOUNDATION RUN</div>
             <span class="workout-duration">50 min</span>
@@ -1676,10 +1676,10 @@
 <div class="week-label">WEEK 8</div>
 <table>
 <thead><tr>
-<th class="rest-header">Monday</th><th class="training-header">Tuesday</th><th class="training-header">Wednesday</th><th class="training-header">Thursday</th><th class="training-header">Friday</th><th class="training-header">Saturday</th><th class="training-header">Sunday</th>
+<th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th><th>Sunday</th>
 </tr></thead>
 <tbody><tr>
-<td class="rest-day">REST</td><td class="training-day"><div class="workout-card swim-card">
+<td class="rest-day">REST</td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM BASE</div>
             <span class="workout-duration">1000m</span>
@@ -1717,7 +1717,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> BIKE LACTATE INTERVALS</div>
             <span class="workout-duration">1:00</span>
@@ -1743,7 +1743,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">10 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> RUN LACTATE INTERVALS</div>
             <span class="workout-duration">32 min</span>
@@ -1769,7 +1769,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">Run 10 min @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card swim-card">
+            </li></ul></div></td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM BASE</div>
             <span class="workout-duration">900m</span>
@@ -1801,7 +1801,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> FOUNDATION BIKE</div>
             <span class="workout-duration">1:00</span>
@@ -1839,7 +1839,7 @@
                     <span class="detail-part"><span class="label">MS:</span></span>
                     <span class="detail-part">Run 10 min @ moderate immediately following today's bike workout</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> FOUNDATION RUN</div>
             <span class="workout-duration">45 min</span>
@@ -1876,10 +1876,10 @@
 <div class="week-label">WEEK 9</div>
 <table>
 <thead><tr>
-<th class="rest-header">Monday</th><th class="training-header">Tuesday</th><th class="training-header">Wednesday</th><th class="training-header">Thursday</th><th class="training-header">Friday</th><th class="training-header">Saturday</th><th class="training-header">Sunday</th>
+<th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th><th>Sunday</th>
 </tr></thead>
 <tbody><tr>
-<td class="rest-day">REST</td><td class="training-day"><div class="workout-card swim-card">
+<td class="rest-day">REST</td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM BASE + LACTATE</div>
             <span class="workout-duration">1350m</span>
@@ -1923,7 +1923,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> BIKE LONG HILL CLIMBS</div>
             <span class="workout-duration">1:05</span>
@@ -1949,7 +1949,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">10 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> RUN LACTATE INTERVALS</div>
             <span class="workout-duration">34 min</span>
@@ -1975,7 +1975,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">Run 10 min @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card swim-card">
+            </li></ul></div></td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM BASE + LACTATE</div>
             <span class="workout-duration">1400m</span>
@@ -2006,7 +2006,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> FOUNDATION BIKE</div>
             <span class="workout-duration">1:15</span>
@@ -2032,7 +2032,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">10 min @ moderate aerobic pace</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> FOUNDATION RUN</div>
             <span class="workout-duration">55 min</span>
@@ -2069,10 +2069,10 @@
 <div class="week-label">WEEK 10</div>
 <table>
 <thead><tr>
-<th class="rest-header">Monday</th><th class="training-header">Tuesday</th><th class="training-header">Wednesday</th><th class="training-header">Thursday</th><th class="training-header">Friday</th><th class="training-header">Saturday</th><th class="training-header">Sunday</th>
+<th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th><th>Sunday</th>
 </tr></thead>
 <tbody><tr>
-<td class="rest-day">REST</td><td class="training-day"><div class="workout-card swim-card">
+<td class="rest-day">REST</td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM BASE + LACTATE</div>
             <span class="workout-duration">1350m</span>
@@ -2116,7 +2116,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> BIKE LACTATE INTERVALS</div>
             <span class="workout-duration">1:15</span>
@@ -2142,7 +2142,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">10 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> RUN LACTATE INTERVALS</div>
             <span class="workout-duration">36 min</span>
@@ -2168,7 +2168,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">Run 10 min @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card swim-card">
+            </li></ul></div></td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM BASE + LACTATE</div>
             <span class="workout-duration">1400m</span>
@@ -2206,7 +2206,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card brick-card">
+            </li></ul></div></td><td><div class="workout-card brick-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏋️</span> BRICK</div>
             <span class="workout-duration">1:20</span>
@@ -2225,7 +2225,7 @@
                     <span class="detail-part"><span class="label">MS:</span></span>
                     <span class="detail-part">Run 20 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> FOUNDATION RUN</div>
             <span class="workout-duration">40 min</span>
@@ -2262,10 +2262,10 @@
 <div class="week-label">WEEK 11</div>
 <table>
 <thead><tr>
-<th class="rest-header">Monday</th><th class="training-header">Tuesday</th><th class="training-header">Wednesday</th><th class="training-header">Thursday</th><th class="training-header">Friday</th><th class="training-header">Saturday</th><th class="training-header">Sunday</th>
+<th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th><th>Sunday</th>
 </tr></thead>
 <tbody><tr>
-<td class="rest-day">REST</td><td class="training-day"><div class="workout-card swim-card">
+<td class="rest-day">REST</td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM BASE + LACTATE</div>
             <span class="workout-duration">1350m</span>
@@ -2309,7 +2309,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> BIKE LONG HILL CLIMBS</div>
             <span class="workout-duration">1:10</span>
@@ -2335,7 +2335,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">10 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> RUN LACTATE INTERVALS</div>
             <span class="workout-duration">40 min</span>
@@ -2361,7 +2361,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">Run 10 min @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card swim-card">
+            </li></ul></div></td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM BASE + LACTATE</div>
             <span class="workout-duration">1400m</span>
@@ -2399,7 +2399,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> FOUNDATION BIKE</div>
             <span class="workout-duration">1:30</span>
@@ -2425,7 +2425,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">10 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> LONG RUN</div>
             <span class="workout-duration">1:05</span>
@@ -2463,16 +2463,16 @@
 </div>
 </div>
 
-<div class="phase-header">PEAK PHASE (Weeks 12-16) - Race-Specific Training &amp; Taper</div>
+<div class="phase-header">PEAK PHASE (Weeks 12-16) - Race-Specific Training & Taper</div>
 <div class="week-wrapper">
 <div class="table-wrapper">
 <div class="week-label">WEEK 12</div>
 <table>
 <thead><tr>
-<th class="rest-header">Monday</th><th class="training-header">Tuesday</th><th class="training-header">Wednesday</th><th class="training-header">Thursday</th><th class="training-header">Friday</th><th class="training-header">Saturday</th><th class="training-header">Sunday</th>
+<th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th><th>Sunday</th>
 </tr></thead>
 <tbody><tr>
-<td class="rest-day">REST</td><td class="training-day"><div class="workout-card swim-card">
+<td class="rest-day">REST</td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM BASE + LACTATE</div>
             <span class="workout-duration">1100m</span>
@@ -2509,7 +2509,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> FOUNDATION BIKE</div>
             <span class="workout-duration">45 min</span>
@@ -2535,7 +2535,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">7 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> FOUNDATION RUN</div>
             <span class="workout-duration">30 min</span>
@@ -2561,7 +2561,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">Run 10 min @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card swim-card">
+            </li></ul></div></td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM THRESHOLD + SPRINT</div>
             <span class="workout-duration">1200m</span>
@@ -2599,7 +2599,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> RECOVERY BIKE</div>
             <span class="workout-duration">20 min</span>
@@ -2618,7 +2618,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">10 min @ recovery</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card race-card">
+            </li></ul></div></td><td><div class="workout-card race-card">
         <div style="font-weight: bold; text-align: center;">
             🏁 RACE DAY!
         </div>
@@ -2636,10 +2636,10 @@
 <div class="week-label">WEEK 13</div>
 <table>
 <thead><tr>
-<th class="rest-header">Monday</th><th class="training-header">Tuesday</th><th class="training-header">Wednesday</th><th class="training-header">Thursday</th><th class="training-header">Friday</th><th class="training-header">Saturday</th><th class="training-header">Sunday</th>
+<th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th><th>Sunday</th>
 </tr></thead>
 <tbody><tr>
-<td class="rest-day">REST</td><td class="training-day"><div class="workout-card swim-card">
+<td class="rest-day">REST</td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM BASE + LACTATE</div>
             <span class="workout-duration">1500m</span>
@@ -2683,7 +2683,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> TEMPO BIKE</div>
             <span class="workout-duration">55 min</span>
@@ -2709,7 +2709,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">16 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> TEMPO RUN</div>
             <span class="workout-duration">32 min</span>
@@ -2735,7 +2735,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">Run 10 min @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card swim-card">
+            </li></ul></div></td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM BASE + LACTATE</div>
             <span class="workout-duration">1500m</span>
@@ -2773,7 +2773,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> FOUNDATION BIKE</div>
             <span class="workout-duration">1:45</span>
@@ -2799,7 +2799,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">10 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> LONG RUN</div>
             <span class="workout-duration">1:05</span>
@@ -2836,10 +2836,10 @@
 <div class="week-label">WEEK 14</div>
 <table>
 <thead><tr>
-<th class="rest-header">Monday</th><th class="training-header">Tuesday</th><th class="training-header">Wednesday</th><th class="training-header">Thursday</th><th class="training-header">Friday</th><th class="training-header">Saturday</th><th class="training-header">Sunday</th>
+<th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th><th>Sunday</th>
 </tr></thead>
 <tbody><tr>
-<td class="rest-day">REST</td><td class="training-day"><div class="workout-card swim-card">
+<td class="rest-day">REST</td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM THRESHOLD + SPRINT</div>
             <span class="workout-duration">1500m</span>
@@ -2883,7 +2883,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> TEMPO BIKE</div>
             <span class="workout-duration">55 min</span>
@@ -2909,7 +2909,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">16 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> TEMPO RUN</div>
             <span class="workout-duration">32 min</span>
@@ -2935,7 +2935,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">Run 10 min @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card swim-card">
+            </li></ul></div></td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM BASE + LACTATE</div>
             <span class="workout-duration">1500m</span>
@@ -2973,7 +2973,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> FOUNDATION BIKE</div>
             <span class="workout-duration">1:45</span>
@@ -2999,7 +2999,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">10 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> LONG RUN</div>
             <span class="workout-duration">1:05</span>
@@ -3036,10 +3036,10 @@
 <div class="week-label">WEEK 15</div>
 <table>
 <thead><tr>
-<th class="rest-header">Monday</th><th class="training-header">Tuesday</th><th class="training-header">Wednesday</th><th class="training-header">Thursday</th><th class="training-header">Friday</th><th class="training-header">Saturday</th><th class="training-header">Sunday</th>
+<th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th><th>Sunday</th>
 </tr></thead>
 <tbody><tr>
-<td class="rest-day">REST</td><td class="training-day"><div class="workout-card swim-card">
+<td class="rest-day">REST</td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM THRESHOLD + SPRINT</div>
             <span class="workout-duration">1500m</span>
@@ -3083,7 +3083,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> TEMPO BIKE</div>
             <span class="workout-duration">1:05</span>
@@ -3109,7 +3109,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">20 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> TEMPO RUN</div>
             <span class="workout-duration">36 min</span>
@@ -3135,7 +3135,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">Run 10 min @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card swim-card">
+            </li></ul></div></td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM BASE + LACTATE</div>
             <span class="workout-duration">1500m</span>
@@ -3173,7 +3173,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> LONG BIKE</div>
             <span class="workout-duration">2:00</span>
@@ -3199,7 +3199,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">10 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> LONG RUN</div>
             <span class="workout-duration">1:05</span>
@@ -3242,10 +3242,10 @@
 <div class="week-label">WEEK 16</div>
 <table>
 <thead><tr>
-<th class="rest-header">Monday</th><th class="training-header">Tuesday</th><th class="training-header">Wednesday</th><th class="training-header">Thursday</th><th class="training-header">Friday</th><th class="training-header">Saturday</th><th class="training-header">Sunday</th>
+<th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th><th>Sunday</th>
 </tr></thead>
 <tbody><tr>
-<td class="rest-day">REST</td><td class="training-day"><div class="workout-card swim-card">
+<td class="rest-day">REST</td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM BASE + LACTATE</div>
             <span class="workout-duration">1100m</span>
@@ -3289,7 +3289,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> TEMPO BIKE</div>
             <span class="workout-duration">45 min</span>
@@ -3315,7 +3315,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">7 min @ moderate</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card run-card">
+            </li></ul></div></td><td><div class="workout-card run-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏃</span> TEMPO RUN</div>
             <span class="workout-duration">30 min</span>
@@ -3341,7 +3341,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">Run 10 min @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card swim-card">
+            </li></ul></div></td><td><div class="workout-card swim-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🏊</span> SWIM THRESHOLD + SPRINT</div>
             <span class="workout-duration">900m</span>
@@ -3373,7 +3373,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">200 @ easy</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card bike-card">
+            </li></ul></div></td><td><div class="workout-card bike-card">
         <div class="workout-header">
             <div class="workout-type"><span class="workout-icon">🚴</span> RECOVERY BIKE</div>
             <span class="workout-duration">20 min</span>
@@ -3392,7 +3392,7 @@
                     <span class="detail-part"><span class="label">CD:</span></span>
                     <span class="detail-part">10 min @ recovery</span>
                 </div>
-            </li></ul></div></td><td class="training-day"><div class="workout-card race-card">
+            </li></ul></div></td><td><div class="workout-card race-card">
         <div style="font-weight: bold; text-align: center;">
             🏁 RACE DAY!
         </div>
@@ -3675,15 +3675,12 @@
                             const workoutDuration = workoutCard.querySelector('.workout-duration')?.textContent?.trim() || '';
                             const workoutDetails = Array.from(workoutCard.querySelectorAll('.workout-details li'))
                                 .map(li => getTextContent(li.innerHTML).replace(/▸/g, '').trim())
-                                .join('\\
-');
+                                .join('\\n');
 
                             events.push({
                                 date: eventDate,
                                 summary: `${workoutType} - ${workoutDuration}`,
-                                description: `${weekLabel}\\
-\\
-${workoutDetails}`,
+                                description: `${weekLabel}\\n\\n${workoutDetails}`,
                                 weekLabel: weekLabel
                             });
                         }
@@ -3735,11 +3732,4 @@ END:VEVENT
             URL.revokeObjectURL(link.href);
         }
     </script>
-</body></html>"
-### Ran Playwright code
-```js
-await page.evaluate('() => {
-  // Get the raw source, not the modified DOM
-  return document.documentElement.outerHTML;
-}');
-```
+</body></html>
